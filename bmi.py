@@ -4,7 +4,7 @@ BMI CALCULATOR
 """
 def bmi():
     weight = int(input("Insert your weight (kg): "))
-    height = int(input("Insert you height  (cm): "))
+    height = int(input("Insert your height  (cm): "))
     height = float(height / 100)
     bmi = float(weight / (height*height))
     
